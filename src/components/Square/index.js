@@ -2,12 +2,12 @@ import React from 'react';
 
 function Square(props){
   return (
-    <button
+    <td
       className="square"
       onClick={props.onClick}
     >
       {props.value}
-    </button>
+    </td>
   );
 }
 

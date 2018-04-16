@@ -17,24 +17,63 @@ ol, ul {
   margin-bottom: 10px;
 }
 
-.square {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
+
+
+
+td {
+  border: 6px solid #222;
+}
+td:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+td:nth-of-type(2) {
+  border-top-color: transparent;
+}
+td:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+tr:nth-of-type(3) td {
+  border-bottom-color: transparent;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  width: 33.333%;
+  border: 6px solid #222;
+}
+td::after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td {
+  border: 6px solid #222;
+}
+td:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+td:nth-of-type(2) {
+  border-top-color: transparent;
+}
+td:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+tr:nth-of-type(3) td {
+  border-bottom-color: transparent;
 }
 
-.square:focus {
-  outline: none;
-}
+
+
+
+
+
+
 
 .kbd-navigation .square:focus {
   background: #ddd;
@@ -47,4 +86,7 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+.game-board{
+  width: 100%;
 }
