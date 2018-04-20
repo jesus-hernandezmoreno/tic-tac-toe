@@ -25,6 +25,11 @@ injectGlobal`
     background: #141414;
   }
 
+  img{
+    position: absolute;
+    top:2rem;
+  }
+
   .ticTacToe {
     display: flex;
     justify-content: space-between;
