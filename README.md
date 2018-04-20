@@ -8,7 +8,7 @@ Implementation of the ReactJS Official Tutorial using styled-components
 
 ```shell
 yarn install
-yarn start # prints "Nah."
+yarn start
 ```
 
 Then open [`localhost:3000`](http://localhost:3000) in a browser.
