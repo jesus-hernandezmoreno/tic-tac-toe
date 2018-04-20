@@ -1,94 +1,62 @@
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-}
-
 ol, ul {
   padding-left: 30px;
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+* {
+  box-sizing: border-box;
 }
 
-.status {
-  margin-bottom: 10px;
+html, body {
+  height: 100%;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(top, #222, #333);
+}
 
-
-
-td {
-  border: 6px solid #222;
-  font-size: 150px;
-  text-align: center;
+.ticTacToe {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  height: 450px;
 }
-td:first-of-type {
-  border-left-color: transparent;
-  border-top-color: transparent;
+.ticTacToe .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-td:nth-of-type(2) {
-  border-top-color: transparent;
-}
-td:nth-of-type(3) {
-  border-right-color: transparent;
-  border-top-color: transparent;
-}
-tr:nth-of-type(3) td {
-  border-bottom-color: transparent;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-td {
-  width: 33.333%;
-  border: 6px solid #222;
-}
-td::after {
-  content: '';
+.ticTacToe .square {
   display: block;
-  /*margin-top: 100%;*/
-}
-td {
-  border: 6px solid #222;
-}
-td:first-of-type {
-  border-left-color: transparent;
-  border-top-color: transparent;
-}
-td:nth-of-type(2) {
-  border-top-color: transparent;
-}
-td:nth-of-type(3) {
-  border-right-color: transparent;
-  border-top-color: transparent;
-}
-tr:nth-of-type(3) td {
-  border-bottom-color: transparent;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #e4e4e4;
+  color: #e4e4e4;
+  font-size: 5em;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px;
 }
 
-
-
-
-
-
-
-
-.kbd-navigation .square:focus {
-  background: #ddd;
-}
 
 .game {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .game-info {
   margin-left: 20px;
 }
 .game-board{
-  width: 100%;
+
 }
