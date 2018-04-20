@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import Game from 'components/Game';
-
+// Import CSS reset and Global Styles
+import 'utils/global-styles';
 // ========================================
 
 ReactDOM.render(
