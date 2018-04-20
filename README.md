@@ -1,4 +1,4 @@
-![Logo of the project](https://avatars0.githubusercontent.com/u/17417706?s=96&v=4)
+![Logo of the project](https://raw.githubusercontent.com/jesus-hernandezmoreno/tic-tac-toe/master/public/logo.png)
 
 # Tic-Tac-Toe with Styled Components
 > Additional information or tagline
