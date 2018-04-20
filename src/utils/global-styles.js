@@ -45,6 +45,7 @@ injectGlobal`
     font-size: 5em;
     font-weight: 100;
     text-align: center;
+    font-family: 'Joystix';
     padding: 20px;
   }
 
@@ -76,8 +77,8 @@ injectGlobal`
   /** Game Over **/
   @font-face {
   	font-family: 'Game Over';
-  	src: url('/fonts/game_over/game_over.eot');
-  	src: local('☺'), url('/fonts/game_over/game_over.woff') format('woff'), url('/fonts/game_over/game_over.ttf') format('truetype'), url('/fonts/game_over/game_over.svg') format('svg');
+  	src: url('/fonts/game-over/game_over.eot');
+  	src: local('☺'), url('/fonts/game-over/game_over.woff') format('woff'), url('/fonts/game-over/game_over.ttf') format('truetype'), url('/fonts/game-over/game_over.svg') format('svg');
   	font-weight: normal;
   	font-style: normal;
   }
