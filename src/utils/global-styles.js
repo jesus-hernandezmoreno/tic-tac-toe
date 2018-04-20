@@ -64,5 +64,26 @@ injectGlobal`
   .game-board{
 
   }
+  /** Joystix **/
+  @font-face {
+  	font-family: 'Joystix';
+  	src: url('/fonts/Joystix/joystix monospace.eot');
+  	src: local('☺'), url('/fonts/Joystix/joystix monospace.woff') format('woff'), url('/fonts/Joystix/joystix monospace.ttf') format('truetype'), url('/fonts/Joystix/joystix monospace.svg') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+  }
+
+  /** Game Over **/
+  @font-face {
+  	font-family: 'Game Over';
+  	src: url('/fonts/game_over/game_over.eot');
+  	src: local('☺'), url('/fonts/game_over/game_over.woff') format('woff'), url('/fonts/game_over/game_over.ttf') format('truetype'), url('/fonts/game_over/game_over.svg') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+  }
+
+  h1{
+  	font-family: 'Joystix';
+  }
 
 `;
