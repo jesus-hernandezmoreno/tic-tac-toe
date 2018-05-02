@@ -1,5 +1,11 @@
 import React from 'react';
 import Board from 'components/Board';
+import styled from 'styled-components';
+
+const Status = styled.h1`
+  color: #e4e4e4;
+  font-family: 'Joystix';
+`;
 
 function calculateWinner(squares) {
   const lines = [
@@ -84,6 +90,7 @@ class Game extends React.Component {
       <div className="game">
         <img src="/img/logo_white.png"/>
         <div className="game-board">
+          <Status>{status}</Status>
           <Board
             squares={current.squares}
             onClick={(i) => this.handleClick(i)}
